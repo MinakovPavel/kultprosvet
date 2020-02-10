@@ -1,0 +1,24 @@
+### Headers settings
+company: Minakov
+
+### Xcode project settings
+project_name: kultprosvet
+xcodeproj_path: kultprosvet.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: kultprosvet
+
+# The file path for new modules
+project_file_path: kultprosvet/Modules
+
+# The Xcode group path to new modules
+project_group_path: kultprosvet/Modules
+
+### Dependencies settings section
+podfile_path: 
+
+### Templates
+templates:
+- {name: swift_viper_project_template, git: 'https://github.com/PavelOstanin/swift_viper_project_template'}
+- {name: archer_viper_template, git: 'https://github.com/MinakovPavel/generamba_template'}
